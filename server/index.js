@@ -1,6 +1,9 @@
+/* eslint-disable no-console */
 /*
   This file is responsible for requiring your express server and then binding it to the desired port
 */
+
+require('newrelic');
 
 const server = require('./server.js');
 
