@@ -9,7 +9,7 @@ const app = express();
 app.use(express.static(PUBLIC_DIR));
 app.use(morgan('dev'));
 
-app.get('/homes/:id', (req, res) => {
+app.get('/homes/:id/nearbyHomes', (req, res) => {
   console.log('here')
   res.sendFile(path.resolve('public', 'index.html'))
 });

@@ -41,28 +41,28 @@
 */
 
 module.exports = {
-  //booking
-  service1: {
-    api: ['/homes/:id/reservation', '/homes/:id/listing', '/booking/images/*'],
-    url: 'http://localhost:5000/',
-    bundle: 'bundle.js',
-  },
-  //photos
-  service2: {
-    api: '/homes/:id/photos',
-    url: 'http://localhost:3001',
-    bundle: 'bundle.js',
-  },
-  //reviews
-  service3: {
-    api: ['/homes/:id/reviews', '/reviews/images/*'],
-    url: 'http://localhost:3010',
-    bundle: 'bundle.js',
-  },
-  //nearby homes
+  // booking
+  // service1: {
+  //   api: ['/homes/:id/reservation', '/homes/:id/listing', '/booking/images/*'],
+  //   url: 'http://localhost:5000/',
+  //   bundle: 'bundle.js',
+  // },
+  // // photos
+  // service2: {
+  //   api: '/homes/:id/photos',
+  //   url: 'http://localhost:3005',
+  //   bundle: 'bundle.js',
+  // },
+  // // reviews
+  // service3: {
+  //   api: ['/homes/:id/reviews', '/reviews/images/*'],
+  //   url: 'http://localhost:3010',
+  //   bundle: 'bundle.js',
+  // },
+  // nearby homes
   service4: {
     api: '/homes/:id/nearbyHomes',
-    url: 'http://localhost:3004',
+    url: 'http://localhost:3001',
     bundle: 'bundle.js',
   },
 };
