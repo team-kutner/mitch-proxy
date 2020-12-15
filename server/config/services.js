@@ -1,3 +1,4 @@
+require('dotenv').config();
 /*
   This file contains the configuration information needed to proxy requests to your desired server
   for both your bundle.js and any AJAX requests made to your API. In order for this to work your
@@ -62,7 +63,7 @@ module.exports = {
   // nearby homes
   service4: {
     api: '/homes/:id/nearbyHomes',
-    url: 'http://localhost:3001',
+    url: `${process.env.SERVICE_URL}:3001`,
     bundle: 'bundle.js',
   },
 };
