@@ -1,4 +1,5 @@
 /* eslint-disable linebreak-style */
+/* eslint-disable no-unused-expressions */
 /* eslint-disable comma-dangle */
 /* eslint-disable strict */
 require('dotenv').config();

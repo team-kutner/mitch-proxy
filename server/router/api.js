@@ -1,8 +1,6 @@
 const { Router } = require('express');
 const { createProxyMiddleware } = require('http-proxy-middleware');
-const {
-  service4,
-} = require('../config/services.js');
+const { service4 } = require('../config/services.js');
 
 const router = Router();
 

@@ -63,7 +63,7 @@ module.exports = {
   // nearby homes
   service4: {
     api: '/homes/:id/nearbyHomes',
-    url: `${process.env.SERVICE_URL}:3001`,
+    url: `http://${process.env.SERVICE_URL}:3001/`,
     bundle: 'bundle.js',
   },
 };
